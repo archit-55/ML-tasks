@@ -1,0 +1,15 @@
+
+Q. Generate 3x2 and 2x5 2D array with random element and save this data into two seperate files and print the data
+
+
+import numpy as np
+a=np.random.randint(low=1,high=20,size=(3,2))    #generating 1st array
+print(a)
+
+b=np.random.randint(low=1,high=20,size=(2,5))         #generating 2nd array
+print(b)
+
+#     saving array in file
+
+np.savetxt("a.txt",a)
+np.savetxt("b.txt,",b)
