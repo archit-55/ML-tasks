@@ -9,17 +9,13 @@ iv)  file name must  student.csv with all column separated by ','
 
 
 
-
-
-
 #!/usr/bin/python3
 
 
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#  entering data in file(dictionary)
-
+# creating data frame
 data={"Student_Name":["Archit","MSD","Jack","Kane"],"Marks":[89,99,67,79],
       "Age":[21,37,25,16],"Contact":[7611425575,7777777777,4563214569,7852365894],"Study_hours":[5,8,10,2]}
 print(data)
